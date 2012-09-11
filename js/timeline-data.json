@@ -1,0 +1,102 @@
+{
+    "timeline":
+    {
+        "headline":"Indy Tech Week 2012",
+        "type":"default",
+        "text":"<p>Indy Tech Week is an umbrella label for several really cool business and tech related events, conferences and more going on in Indianapolis.</p>",
+        "asset": {
+            "media":"http://yourdomain_or_socialmedialink_goes_here.jpg",
+            "credit":"Sponsored by",
+            "caption":"ExactTarget, re:build, Verge"
+        },
+        "date": [
+            {
+                "startDate":"2011,10,11",
+                "endDate":"2011,10,12",
+                "headline":"re:build 2012<br />Pre-party and VIP Dinner",
+                "text":"<p></p>",
+                "tag":"re:build",
+                "asset": {
+                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"2011,10,13",
+                "endDate":"2011,10,13",
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"re:build",
+                "asset": {
+                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"2011,10,14",
+                "endDate":"2011,10,14",
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"Indy Tech Week",
+                "asset": {
+                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"2011,10,15",
+                "endDate":"2011,10,15",
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"Indy Tech Week",
+                "asset": {
+                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"2011,10,16",
+                "endDate":"2011,10,18",
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"ExactTarget",
+                "asset": {
+                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"2011,10,17",
+                "endDate":"2011,10,19",
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"Verge",
+                "asset": {
+                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            }
+        ],
+        "era": [
+            {
+                "startDate":"2011,10,01",
+                "endDate":"2011,11,01",
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"Indy Tech Week"
+            }
+        ]
+    }
+}
