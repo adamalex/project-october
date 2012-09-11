@@ -4,15 +4,82 @@
    Author's custom styles
    ========================================================================== */
 
+.category{
+	margin-top: 15px;
+}
+
+[class^="tw-icon-"], [class*=" tw-icon-"] {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-top: 1px;
+	line-height: 25px;
+	vertical-align: text-top;
+	background-image: url("../img/twitter-icons.png");
+	background-position: 14px -5px;
+	background-repeat: no-repeat;
+}
+
+.tw-icon-bird {
+	background-position: -6px -4px;
+}
+.tw-icon-bird:hover {
+	background-position: -6px -65px;
+}
+.tw-icon-bird:active {
+	background-position: -6px -32px;
+}
 
 
+.tw-icon-at {
+	background-position: -86px -4px;
+}
+.tw-icon-at:hover {
+	background-position: -86px -66px;
+}
+.tw-icon-at:active {
+	background-position: -86px -34px;
+}
 
+.tw-icon-hash {
+	background-position: -43px -4px;
+}
+.tw-icon-hash:hover {
+	background-position: -43px -66px;
+}
+.tw-icon-hash:active {
+	background-position: -43px -34px;
+}
 
+.tw-icon-user {
+	background-position: -125px -4px;
+}
+.tw-icon-user:hover {
+	background-position: -125px -66px;
+}
+.tw-icon-user:active {
+	background-position: -125px -34px;
+}
 
+.tw-icon-cog {
+	background-position: -166px -4px;
+}
+.tw-icon-cog:hover {
+	background-position: -166px -66px;
+}
+.tw-icon-cog:active {
+	background-position: -166px -34px;
+}
 
-
-
-
+.tw-icon-github {
+	background-position: -204px -4px;
+}
+.tw-icon-github:hover {
+	background-position: -204px -66px;
+}
+.tw-icon-github:active {
+	background-position: -204px -34px;
+}
 
 
 
