@@ -17,75 +17,75 @@
                 "text":"<p></p>",
                 "tag":"re:build",
                 "asset": {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
-                    "thumbnail":"optional-32x32px.jpg",
-                    "credit":"Credit Name Goes Here",
-                    "caption":"Caption text goes here"
+                    "media":"https://twitter.com/rebuildconf/status/244152045408505856",
+                    "thumbnail":"/img/rebuild-icon.png",
+                    "credit":"Sponsored by",
+                    "caption":"Talentopoly &amp; JSMeetup"
                 }
             },
             {
                 "startDate":"2011,10,13",
                 "endDate":"2011,10,13",
-                "headline":"Headline Goes Here",
-                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "headline":"re:build Conference",
+                "text":"<p>The official re:build conference for 2012</p>",
                 "tag":"re:build",
                 "asset": {
                     "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
                     "thumbnail":"optional-32x32px.jpg",
-                    "credit":"Credit Name Goes Here",
-                    "caption":"Caption text goes here"
+                    "credit":"Sponsored by",
+                    "caption":"JSMeetup"
                 }
             },
             {
                 "startDate":"2011,10,14",
                 "endDate":"2011,10,14",
-                "headline":"Headline Goes Here",
-                "text":"<p>Body text goes here, some HTML is OK</p>",
-                "tag":"Indy Tech Week",
+                "headline":"Indy Hack Day",
+                "text":"<p>A full-on hackathon, giving you the chance to earn some street cred!!!</p>",
+                "tag":"Verge",
                 "asset": {
                     "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
                     "thumbnail":"optional-32x32px.jpg",
-                    "credit":"Credit Name Goes Here",
-                    "caption":"Caption text goes here"
+                    "credit":"Sponsored By",
+                    "caption":"Verge &amp; Talentopoly"
                 }
             },
             {
                 "startDate":"2011,10,15",
                 "endDate":"2011,10,15",
-                "headline":"Headline Goes Here",
-                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "headline":"Geek Power Ride",
+                "text":"<p>Tag yourself with your corporate t-shirt, hop on your bike and hit the monon with the locals!</p>",
                 "tag":"Indy Tech Week",
                 "asset": {
                     "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
                     "thumbnail":"optional-32x32px.jpg",
-                    "credit":"Credit Name Goes Here",
-                    "caption":"Caption text goes here"
+                    "credit":"Sponsored By",
+                    "caption":"Verge, re:build and you??"
                 }
             },
             {
                 "startDate":"2011,10,16",
                 "endDate":"2011,10,18",
-                "headline":"Headline Goes Here",
-                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "headline":"Connections 2012",
+                "text":"<p>At ExactTarget, we believe each individual has the power to Inspire the Future. Through more than 40 breakout sessions, we’ll explore how inspiration comes to life—fueling creativity, improving communities, and building businesses—sparking innovation for years to come.</p>",
                 "tag":"ExactTarget",
                 "asset": {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "media":"http://www.youtube.com/watch?feature=player_embedded&v=Dh0gzSOzKrU",
                     "thumbnail":"optional-32x32px.jpg",
-                    "credit":"Credit Name Goes Here",
-                    "caption":"Caption text goes here"
+                    "credit":"Sponsored By",
+                    "caption":"ExactTarget"
                 }
             },
             {
                 "startDate":"2011,10,17",
                 "endDate":"2011,10,19",
-                "headline":"Headline Goes Here",
-                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "headline":"Powder Keg",
+                "text":"<p>Experience 2 1/2 days of engaged learning and vantage-shifting inspiration. Connect with a group of exceptional entrepreneurs, developers, and creatives.</p>",
                 "tag":"Verge",
                 "asset": {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "media":"https://twitter.com/PowderKegConf/status/240783100152516609",
                     "thumbnail":"optional-32x32px.jpg",
-                    "credit":"Credit Name Goes Here",
-                    "caption":"Caption text goes here"
+                    "credit":"Sponsored By",
+                    "caption":"Verge"
                 }
             }
         ],
