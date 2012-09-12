@@ -23,7 +23,8 @@ background-image: radial-gradient(ellipse farthest-corner at center top, #E2E8EB
    ========================================================================== */
 
 .category{
-	margin-top: 15px;
+	margin-top: 25px;
+	border-bottom: 2px dashed #333;
 }
 
 [class^="tw-icon-"], [class*=" tw-icon-"] {
