@@ -12,7 +12,7 @@
         "date": [
             {
                 "startDate":"2011,10,11",
-                "endDate":"2011,10,12",
+                "endDate":"2011,10,11",
                 "headline":"re:build 2012<br />Pre-party and VIP Dinner",
                 "text":"<p></p>",
                 "tag":"re:build",
@@ -24,8 +24,8 @@
                 }
             },
             {
-                "startDate":"2011,10,13",
-                "endDate":"2011,10,13",
+                "startDate":"2011,10,12",
+                "endDate":"2011,10,12",
                 "headline":"re:build Conference",
                 "text":"<p>The official re:build conference for 2012</p>",
                 "tag":"re:build",
@@ -37,13 +37,26 @@
                 }
             },
             {
+                "startDate":"2011,10,13",
+                "endDate":"2011,10,13",
+                "headline":"Broad Ripple Music Festival",
+                "text":"<p>The Sixth annual Broad Ripple Music Fest will invade Indy's favorite cultural community mecca on Saturday, October 13th.</p>",
+                "tag":"Indy Tech Week",
+                "asset": {
+                    "media":"http://www.youtube.com/watch?feature=player_embedded&v=PpAnF9Mzb7k",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Sponsored By",
+                    "caption":"Upland Brewing Co., Butler Scion, PrintResources, PRN Graphics, PBR, NUVO, Kolman, SmallBox, 92.3 WTTS, SquareJive, AyoKay, DO317, indyPride, yelp, the Onion"
+                }
+            },
+            {
                 "startDate":"2011,10,14",
                 "endDate":"2011,10,14",
                 "headline":"Indy Hack Day",
                 "text":"<p>A full-on hackathon, giving you the chance to earn some street cred!!!</p>",
                 "tag":"Verge",
                 "asset": {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "media":"https://c9.io/adamalex/project-october/workspace/img/IndyHack.jpg",
                     "thumbnail":"optional-32x32px.jpg",
                     "credit":"Sponsored By",
                     "caption":"Verge &amp; Talentopoly"
@@ -91,10 +104,10 @@
         ],
         "era": [
             {
-                "startDate":"2011,10,01",
-                "endDate":"2011,11,01",
-                "headline":"Headline Goes Here",
-                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "startDate":"2011,10,10",
+                "endDate":"2011,10,20",
+                "headline":"Indy Tech Week",
+                "text":"<p>So Cool</p>",
                 "tag":"Indy Tech Week"
             }
         ]
