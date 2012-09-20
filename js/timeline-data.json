@@ -11,34 +11,34 @@
         },
         "date": [
             {
-                "startDate":"2011,10,11",
-                "endDate":"2011,10,11",
+                "startDate":"2012,10,11",
+                "endDate":"2012,10,11",
                 "headline":"re:build 2012<br />Pre-party and VIP Dinner",
                 "text":"<p></p>",
                 "tag":"re:build",
                 "asset": {
-                    "media":"https://twitter.com/rebuildconf/status/244152045408505856",
+                    //"media":"https://twitter.com/rebuildconf/status/244152045408505856",
                     "thumbnail":"/img/rebuild-icon.png",
                     "credit":"Sponsored by",
                     "caption":"Talentopoly &amp; JSMeetup"
                 }
             },
             {
-                "startDate":"2011,10,12",
-                "endDate":"2011,10,12",
+                "startDate":"2012,10,12",
+                "endDate":"2012,10,12",
                 "headline":"re:build Conference",
                 "text":"<p>The official re:build conference for 2012</p>",
                 "tag":"re:build",
                 "asset": {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "media":"https://twitter.com/rebuildconf/status/244152045408505856",
                     "thumbnail":"optional-32x32px.jpg",
                     "credit":"Sponsored by",
                     "caption":"JSMeetup"
                 }
             },
             {
-                "startDate":"2011,10,13",
-                "endDate":"2011,10,13",
+                "startDate":"2012,10,13",
+                "endDate":"2012,10,13",
                 "headline":"Broad Ripple Music Festival",
                 "text":"<p>The Sixth annual Broad Ripple Music Fest will invade Indy's favorite cultural community mecca on Saturday, October 13th.</p>",
                 "tag":"Indy Tech Week",
@@ -50,8 +50,8 @@
                 }
             },
             {
-                "startDate":"2011,10,14",
-                "endDate":"2011,10,14",
+                "startDate":"2012,10,14",
+                "endDate":"2012,10,14",
                 "headline":"Indy Hack Day",
                 "text":"<p>A full-on hackathon, giving you the chance to earn some street cred!!!</p>",
                 "tag":"Verge",
@@ -63,21 +63,21 @@
                 }
             },
             {
-                "startDate":"2011,10,15",
-                "endDate":"2011,10,15",
+                "startDate":"2012,10,15",
+                "endDate":"2012,10,15",
                 "headline":"Geek Power Ride",
                 "text":"<p>Tag yourself with your corporate t-shirt, hop on your bike and hit the monon with the locals!</p>",
                 "tag":"Indy Tech Week",
                 "asset": {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    //"media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
                     "thumbnail":"optional-32x32px.jpg",
                     "credit":"Sponsored By",
                     "caption":"Verge, re:build and you??"
                 }
             },
             {
-                "startDate":"2011,10,16",
-                "endDate":"2011,10,18",
+                "startDate":"2012,10,16",
+                "endDate":"2012,10,18",
                 "headline":"Connections 2012",
                 "text":"<p>At ExactTarget, we believe each individual has the power to Inspire the Future. Through more than 40 breakout sessions, we’ll explore how inspiration comes to life—fueling creativity, improving communities, and building businesses—sparking innovation for years to come.</p>",
                 "tag":"ExactTarget",
@@ -89,8 +89,8 @@
                 }
             },
             {
-                "startDate":"2011,10,17",
-                "endDate":"2011,10,19",
+                "startDate":"2012,10,17",
+                "endDate":"2012,10,19",
                 "headline":"Powder Keg",
                 "text":"<p>Experience 2 1/2 days of engaged learning and vantage-shifting inspiration. Connect with a group of exceptional entrepreneurs, developers, and creatives.</p>",
                 "tag":"Verge",
@@ -104,8 +104,8 @@
         ],
         "era": [
             {
-                "startDate":"2011,10,10",
-                "endDate":"2011,10,20",
+                "startDate":"2012,10,10",
+                "endDate":"2012,10,20",
                 "headline":"Indy Tech Week",
                 "text":"<p>So Cool</p>",
                 "tag":"Indy Tech Week"
