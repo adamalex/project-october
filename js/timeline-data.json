@@ -17,7 +17,6 @@
                 "text":"<p></p>",
                 "tag":"re:build",
                 "asset": {
-                    //"media":"https://twitter.com/rebuildconf/status/244152045408505856",
                     "thumbnail":"/img/rebuild-icon.png",
                     "credit":"Sponsored by",
                     "caption":"Talentopoly &amp; JSMeetup"
