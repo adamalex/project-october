@@ -17,7 +17,7 @@
                 "text":"<p></p>",
                 "tag":"re:build",
                 "asset": {
-                    "thumbnail":"/img/rebuild-icon.png",
+                    "thumbnail":"http://www.rebuildconf.com/favicon.ico",
                     "credit":"Sponsored by",
                     "caption":"Talentopoly &amp; JSMeetup"
                 }
@@ -30,7 +30,7 @@
                 "tag":"re:build",
                 "asset": {
                     "media":"https://twitter.com/rebuildconf/status/244152045408505856",
-                    "thumbnail":"optional-32x32px.jpg",
+                    "thumbnail":"http://www.rebuildconf.com/favicon.ico",
                     "credit":"Sponsored by",
                     "caption":"JSMeetup"
                 }
@@ -43,7 +43,7 @@
                 "tag":"Indy Tech Week",
                 "asset": {
                     "media":"http://www.youtube.com/watch?feature=player_embedded&v=PpAnF9Mzb7k",
-                    "thumbnail":"optional-32x32px.jpg",
+                    "thumbnail":"https://si0.twimg.com/profile_images/2426567568/0jk04lvaa4hp9zc3y92d_normal.jpeg",
                     "credit":"Sponsored By",
                     "caption":"Upland Brewing Co., Butler Scion, PrintResources, PRN Graphics, PBR, NUVO, Kolman, SmallBox, 92.3 WTTS, SquareJive, AyoKay, DO317, indyPride, yelp, the Onion"
                 }
@@ -56,7 +56,7 @@
                 "tag":"Verge",
                 "asset": {
                     "media":"http://3.bp.blogspot.com/-kBAD-154uHk/UFCT6YO6j-I/AAAAAAAAAGs/qKA6pgBGSn8/s1600/IndyHack.png",
-                    "thumbnail":"optional-32x32px.jpg",
+                    "thumbnail":"http://indyhackday.com/img/favicon.png",
                     "credit":"Sponsored By",
                     "caption":"Verge &amp; Talentopoly"
                 }
@@ -81,7 +81,6 @@
                 "tag":"ExactTarget",
                 "asset": {
                     "media":"http://www.youtube.com/watch?feature=player_embedded&v=Dh0gzSOzKrU",
-                    "thumbnail":"optional-32x32px.jpg",
                     "credit":"Sponsored By",
                     "caption":"ExactTarget"
                 }
@@ -94,7 +93,7 @@
                 "tag":"Verge",
                 "asset": {
                     "media":"https://twitter.com/PowderKegConf/status/240783100152516609",
-                    "thumbnail":"optional-32x32px.jpg",
+                    "thumbnail":"http://vergestartups.com/powderkeg/images/pw-logo-dark.png",
                     "credit":"Sponsored By",
                     "caption":"Verge"
                 }
