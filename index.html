@@ -17,6 +17,8 @@
                 padding-bottom: 40px;
             }
         </style>
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -28,8 +30,11 @@
         <![endif]-->
 
         <div class="container">
-        <h1>Indy Tech Week</h1>
-        <small>Compiled list of tech-related (and a couple non-tech related) events happening in Indianapolis from October 11th through October 19th (2012)</small>
+        <div class="page-header">
+            <h1>Indy Tech Week</h1>
+            <p class="lead"> Indy Tech Week is an accidental (but awesome) week-long techstravanganza in Indianapolis. 5 events, 8 days, neato.</p>
+        </div>
+
         <div id="timeline-embed"></div>
         <script type="text/javascript">
             var timeline_config = {
@@ -48,123 +53,112 @@
         </script>
         <script src="js/storyjs-embed.js"></script>
 
-            <div class="category">
-                <h2>EVENTS</h2>
+            <div class="category events">
+                  <h2>Events</h2>
+                  <ul class="thumbnails">
+                      <li class="span4">
+                          <div class="thumbnail">
+                            <img src="/img/thumb.rebuild.png" alt="">
+                            <h3>re:build</h3>
+                            <p>re:build is a conference about building the web. It's for people who make the web, and love doing it. It doesn't matter
+                            if you're a designer, a developer, or something else: as long as you're obsessed with how we build things for the web,
+                            then you should be there.</p>
+                            <p class="clearfix">
+                              <a class="pull-left" href="http://www.rebuildconf.com/" target="_blank">www.rebuildconf.com</a>
+                              <a class="pull-right" href="https://twitter.com/rebuildconf" target="_blank" title="re:build on Twitter">@rebuildconf</a>
+                            </p>
+                          </div>
+                      </li>
 
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="span6">
-                        <h3>Connections 2012</h3>
-                        <p>Connections is three jam-packed inspirational, educational days, from October 16-18 in Indianapolis, IN.
-                        We’ll have over 40 breakout sessions and 8 different tracks, with more B2B and B2C-specific content than ever before.
-                        On Tuesday, you’ll hear from our keynote speaker, the Emmy and Golden Globe award-winning actor Michael J. Fox.
-                        On Wednesday evening, you’ll also enjoy a private concert with Grammy-nominated band, The Fray.</p>
-                        <p><a class="btn" href="http://www.connections2012.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                        <a href="https://twitter.com/exacttarget" target="_blank" title="ExactTarget on Twitter"><i class="tw-icon-bird"></i></a>
-                        <a href="https://twitter.com/#!/search/?q=%23ET12&src=hash" target="_blank" title='#ET12 on Twitter'><i class="tw-icon-hash"></i></a></p>
-                    </div>
-                    <div class="span6">
-                        <h3>Powder Keg</h3>
-                        <p>This conference is for the crazy ones. The ones who sometimes ignore the rules. The ones who strike forth to boldly pursue their passion, and in doing so, ignite the genius in others.
-We're packing the limited space in the Powder Keg with an explosive combination of entrepreneurial energy and creative talent to grow together.</p>
-                        <p><a class="btn" href="http://powderkeg.org" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <a href="https://twitter.com/PowderKegConf" target="_blank"><i class="tw-icon-bird"></i></a>
-                            <!--<a href="#" target="_blank"><i class="tw-icon-hash"></i></a>-->
-                        </p>
-                   </div>
-                </div>
+                      <li class="span4">
+                          <div class="thumbnail">
+                            <img src="/img/thumb.brmf.png" alt="">
+                            <h3>Broad Ripple Music Fest</h3>
+                            <p>The 6th annual Broad Ripple Music Fest will invade Indy's favorite cultural community mecca on Saturday, October 13th. The historic Broad Ripple Village will be the canvas for over 100 local, regional and national artists performing on 12+ stages.</p>
+                            <p class="clearfix">
+                              <a class="pull-left" href="http://www.broadripplemusicfest.com/" target="_blank">www.broadripplemusicfest.com</a>
+                              <a class="pull-right" href="https://twitter.com/broadripplefest" target="_blank" title="BRMF on Twitter">@broadripplefest</a>
+                            </p>
+                          </div>
+                      </li>
 
-                <div class="row">
-                    <div class="span6">
-                        <h3>re:build</h3>
-                        <p>re:build is a conference about building the web. It's for people who make the web, and love doing it. It doesn't matter
-                        if you're a designer, a developer, or something else: as long as you're obsessed with how we build things for the web,
-                        then you should be there.</p>
-                        <p><a class="btn" href="http://www.rebuildconf.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <a href="https://twitter.com/rebuildconf" target="_blank" title="re:build on Twitter"><i class="tw-icon-bird"></i></a>
-                            <a href="https://twitter.com/#!/search/%23rebuild2012" target="_blank" title="#rebuild2012 on Twitter"><i class="tw-icon-hash"></i></a>
-                            <a href="http://lanyrd.com/2012/rebuildconf/" target="_blank" title="re:build on Lanyrd"><i class="tw-icon-user"></i></a>
-                        </p>
+                      <li class="span4">
+                          <div class="thumbnail">
+                            <img src="/img/thumb.ihd.png" alt="">
+                            <h3>Indy Hack Day</h3>
+                            <p>Indiana has a talented community of developers and designers. But we don't have an event we can all attend. We thought it would be great to get together to work on our projects, see and learn from what others are doing. </p>
+                            <p class="clearfix">
+                              <a class="pull-left" href="http://indyhackday.com/" target="_blank">indyhackday.com</a>
+                              <a class="pull-right" href="http://twitter.com/indyhackday" target="_blank" title="Indy Hack Day on Twitter">@indyhackday</a>
+                            </p>
+                          </div>
+                     </li>
 
+                      <li class="span4">
+                          <div class="thumbnail">
+                            <img src="/img/thumb.cnxns.png" alt="">
+                            <h3>Connections 2012</h3>
+                            <p>Connections is 3 jam-packed inspirational, educational days, from October 16-18.
+                            We’ll have over 40 breakout sessions and 8 different tracks, with more B2B and B2C-specific content than ever before.
+                            On Tuesday, you’ll hear from our keynote speaker, the Emmy and Golden Globe award-winning actor Michael J. Fox.
+                            On Wednesday evening, you’ll enjoy a private concert with Grammy-nominated band, The Fray.</p>
+                            <p class="clearfix">
+                              <a class="pull-left" href="http://www.connections2012.com/" target="_blank">www.connections2012.com</a>
+                              <a class="pull-right" href="https://twitter.com/exacttarget" target="_blank" title="ExactTarget on Twitter">@exacttarget</a>
+                            </p>
                         </div>
-                    <div class="span6">
-                        <h3>Indy Hack Day</h3>
-                        <p>Indiana has a talented community of developers and designers. But we don't have an event we can all attend. We thought it would be great to get together to work on our projects, see and learn from what others are doing. </p>
-                        <p><a class="btn" href="http://indyhackday.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <a href="http://twitter.com/indyhackday" target="_blank" title="Indy Hack Day on Twitter"><i class="tw-icon-bird"></i></a>
-                            <!--
-                            <a href="#" target="_blank"><i class="tw-icon-hash"></i></a>
-                            <a href="#" target="_blank"><i class="tw-icon-at"></i></a>
-                            -->
-                        </p>
-                   </div>
+                      </li>
+
+                      <li class="span4">
+                          <div class="thumbnail">
+                            <img src="/img/thumb.pk.png" alt="">
+                            <h3>Powder Keg</h3>
+                            <p>This conference is for the crazy ones. The ones who sometimes ignore the rules. The ones who strike forth to boldly pursue their passion, and in doing so, ignite the genius in others.
+    We're packing the limited space in the Powder Keg with an explosive combination of entrepreneurial energy and creative talent to grow together.</p>
+                            <p class="clearfix">
+                                <a class="pull-left" href="http://powderkeg.org" target="_blank">powderkeg.org</a>
+                                <a class="pull-right" href="https://twitter.com/PowderKegConf" target="_blank">@powderkegconf</a>
+                            </p>
+                          </div>
+                      </li>
+
+                  </ul>
                 </div>
 
-                <div class="row">
-                    <div class="span12">
-                        <h3>Broad Ripple Music Fest</h3>
-                        <p>Broad Ripple Music Fest (BRMF) is a celebration of local music, right in the heart of Indianapolis! Now in our 6th year,
-                        we’re looking at an even brighter future than ever.</p>
-                        <p><a class="btn" href="http://www.broadripplemusicfest.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <!--
-                            <a href="#" target="_blank"><i class="tw-icon-bird"></i></a>
-                            <a href="#" target="_blank"><i class="tw-icon-hash"></i></a>
-                            -->
+            <div class="category venues">
+                <h2>Venues</h2>
+
+                <ul class="thumbnails">
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <a href="http://www.harrisoncenter.org/" target="_blank"><img src="/img/thumb.hca.png" alt=""></a>
+                        <h4>Harrison Center</h4>
+                      </div>
+                    </li>
+
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <a href="http://www.speakeasyindy.com/" target="_blank"><img src="/img/thumb.se.png" alt=""></a>
+                        <h4>The Speak Easy</h4>
+                      </div>
+                    </li>
+                    
+                    <li class="span3">
+                      <div class="thumbnail">
+                         <a href="http://www.jwindy.com/" target="_blank"><img src="/img/thumb.jw.png" alt=""></a>
+                        <h4>JW Marriott</h4>
                         </p>
-                    </div>
-                </div>
-            </div>
+                      </div>
+                    </li>
 
-            <div class="category">
-                <h2>VENUES</h2>
-
-                <div class="row">
-                    <div class="span6">
-                        <h3>Harrison Center for the arts!</h3>
-                        <p>The Harrison Center for the Arts is a powerful force for cultural development in Indianapolis and a model for community arts, education, and urban revitalization programs across America. We address community problems with cultural solutions: art, music, education, and grassroots activism. We cultivate emerging art patrons by redefining the boundaries of artist and audience: everyone is part of the art.</p>
-                        <p><a class="btn" href="http://www.harrisoncenter.org/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <a href="http://twitter.com/HarrisonCtrArts" target="_blank"><i class="tw-icon-bird"></i></a>
+                    <li class="span3">
+                      <div class="thumbnail">
+                        <a href="http://www.thecranebay.com/" target="_blank"><img src="/img/thumb.cb.png" alt=""></a>
+                        <h4>Crane Bay</h4>
                         </p>
-                    </div>
-
-                    <div class="span6">
-                        <h3>The Speak Easy</h3>
-                        <p>The Speak Easy is a place for Indianapolis-based entrepreneurs, startups, and the folks who support them to work, play, and collaborate.</p>
-                        <p>It's essentially a clubhouse for entrepreneurs, designers, and geeks. We believe that bringing these folks together in a fun, productive work environment is the surest way to accelerate the development and launch of high-growth startups in Central Indiana.</p>
-                        <p><a class="btn" href="http://www.speakeasyindy.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <a href="https://twitter.com/speakeasyindy" target="_blank"><i class="tw-icon-bird"></i></a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="span6">
-                        <h3>JW Marriott</h3>
-
-                        <p>The JW Marriott, a premier Indianapolis convention center hotel, is part of the new $450 million Marriott Place, consisting of five Marriott hotels all connected to the Indiana Convention Center. Boasting 33 floors, our hotel is the tallest in the state and our 1,005 guest rooms make us the largest JW Marriott in the United States.</p>
-                        <p><a class="btn" href="http://www.jwindy.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <a href="http://twitter.com/JWMarriottIndy" target="_blank"><i class="tw-icon-bird"></i></a>
-                            <a href="https://twitter.com/search/?src=hash&q=%23JWMariott" target="_blank"><i class="tw-icon-hash"></i></a>
-                        </p>
-                    </div>
-
-                    <div class="span6">
-                        <h3>Crane Bay</h3>
-                        <p>Indy's Newest, and Most Unique Event and Concert Venue</p>
-                        <p><a class="btn" href="http://www.thecranebay.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="span12">
-                        <h3>Developer Town</h3>
-                        <p>We love ideas as much as the technology behind them and thrive on helping first-time visionaries, serial entrepreneurs, or business leaders launch a product into a market.</p>
-                        <p><a class="btn" href="http://www.developertown.com/" target="_blank">View details <i class="icon-chevron-right"></i></a>
-                            <a href="http://www.twitter.com/developertown" target="_blank"><i class="tw-icon-bird"></i></a>
-                        </p>
-                    </div>
-                </div>
+                      </div>
+                    </li>
+                </ul>
             </div>
 
             <div class="category" style="border: none;">
@@ -209,7 +203,6 @@ We're packing the limited space in the Powder Keg with an explosive combination 
             <hr>
 
             <footer>
-                <p>&copy; Indy Tech Week 2012-2013</p>
             </footer>
 
         </div> <!-- /container -->

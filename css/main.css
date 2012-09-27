@@ -8,7 +8,7 @@ background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #E2E
 /* Opera */ 
 background-image: -o-radial-gradient(center top, ellipse farthest-corner, #E2E8EB 0%, #A1CFFF 70%);
 
-/* Webkit (Safari/Chrome 10) */ 
+ Webkit (Safari/Chrome 10)  
 background-image: -webkit-gradient(radial, center top, 0, center top, 553, color-stop(0, #E2E8EB), color-stop(.7, #A1CFFF));
 
 /* Webkit (Chrome 11+) */ 
@@ -22,9 +22,24 @@ background-image: radial-gradient(ellipse farthest-corner at center top, #E2E8EB
    Author's custom styles
    ========================================================================== */
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arvo', Georgia, Times, serif;
+}
+ 
+p {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+.events .thumbnail{
+	min-height: 400px;
+}
+
+.thumbnail p, .thumbnail h3, .thumbnail h4{
+	padding: 0 10px;
+}
+
 .category{
 	margin-top: 25px;
-	border-bottom: 2px dashed #333;
 }
 
 [class^="tw-icon-"], [class*=" tw-icon-"] {
