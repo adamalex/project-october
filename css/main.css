@@ -38,6 +38,12 @@ p {
 	min-height: 400px;
 }
 
+@media (max-width: 767px) {
+	.events .thumbnail{
+		min-height: 600px;
+	}
+}
+
 .thumbnail .dates{
 	font-size: 1em;
 	margin-bottom: 10px;
