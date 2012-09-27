@@ -1,5 +1,6 @@
 body{
-background-image: url('/img/subtlenet2.png');
+	background-image: url('/img/subtlenet2.png');
+	padding-top: 0;
 }
 
 /* ==========================================================================
@@ -16,6 +17,18 @@ p {
 
 .page-header{
 	position: relative;
+	background: #333 url('/img/txture.png');
+	margin-top: 0;
+}
+
+.hero-unit{
+	position: relative;
+	color: #ccc;
+	background: transparent;
+}
+
+.hero-unit h1{
+	color: #fff;
 }
 
 .page-header .dates{
@@ -60,6 +73,31 @@ p {
 
 .contributors{
 	font-size: 0.9em;
+}
+
+.timeline{
+	background: #333;
+	color: #fefefe;
+	padding-bottom: 30px;
+
+	-webkit-box-shadow: inset 0px 0px 6px 4px rgba(0, 0, 0, .5);
+	box-shadow: inset 0px 0px 6px 4px rgba(0, 0, 0, .5);
+}
+
+footer{
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer h4{
+	display: inline-block;
+	padding: 0 10px;
+	color: #666;
+	opacity: 0.5;
+}
+
+footer h4:hover{
+	opacity: 1;
 }
 
 [class^="tw-icon-"], [class*=" tw-icon-"] {
