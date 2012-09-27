@@ -1,21 +1,5 @@
 body{
-/* IE10 Consumer Preview */ 
-background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #E2E8EB 0%, #A1CFFF 70%);
-
-/* Mozilla Firefox */ 
-background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #E2E8EB 0%, #A1CFFF 70%);
-
-/* Opera */ 
-background-image: -o-radial-gradient(center top, ellipse farthest-corner, #E2E8EB 0%, #A1CFFF 70%);
-
- Webkit (Safari/Chrome 10)  
-background-image: -webkit-gradient(radial, center top, 0, center top, 553, color-stop(0, #E2E8EB), color-stop(.7, #A1CFFF));
-
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #E2E8EB 0%, #A1CFFF 70%);
-
-/* W3C Markup, IE10 Release Preview */ 
-background-image: radial-gradient(ellipse farthest-corner at center top, #E2E8EB 0%, #A1CFFF 70%);
+background-image: url('/img/subtlenet2.png');
 }
 
 /* ==========================================================================
@@ -30,8 +14,34 @@ p {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
+.page-header{
+	position: relative;
+}
+
+.page-header .dates{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-family: 'Arvo', Georgia, Times, serif;
+	text-transform: uppercase;
+}
+
+.page-header sup{
+	text-transform: none;
+}
+
+.thumbnail{
+	background: #fff;
+}
+
 .events .thumbnail{
 	min-height: 400px;
+}
+
+.thumbnail .dates{
+	font-size: 1em;
+	margin-bottom: 10px;
+	line-height: 1.1;
 }
 
 .thumbnail p, .thumbnail h3, .thumbnail h4{

@@ -5,9 +5,6 @@
         "type":"default",
         "text":"<p>Indy Tech Week is an umbrella label for several really cool business and tech related events, conferences and more going on in Indianapolis.</p>",
         "asset": {
-            "media":"http://yourdomain_or_socialmedialink_goes_here.jpg",
-            "credit":"Sponsored by",
-            "caption":"ExactTarget, re:build, Verge"
         },
         "date": [
             {
@@ -29,10 +26,10 @@
                 "text":"<p>The official re:build conference for 2012</p>",
                 "tag":"re:build",
                 "asset": {
-                    "media":"https://twitter.com/rebuildconf/status/244152045408505856",
+                    "media":"/img/thumb.rebuild.png",
                     "thumbnail":"http://www.rebuildconf.com/favicon.ico",
-                    "credit":"Sponsored by",
-                    "caption":"JSMeetup"
+                    "credit":"",
+                    "caption":""
                 }
             },
             {
