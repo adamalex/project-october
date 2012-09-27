@@ -58,6 +58,10 @@ p {
 	margin-top: 25px;
 }
 
+.contributors{
+	font-size: 0.9em;
+}
+
 [class^="tw-icon-"], [class*=" tw-icon-"] {
 	display: inline-block;
 	width: 25px;
