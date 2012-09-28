@@ -1,6 +1,5 @@
 body{
 	background-image: url('/img/subtlenet2.png');
-	padding-bottom:40px;
 }
 
 /* ==========================================================================
@@ -85,32 +84,34 @@ p {
 }
 
 .category{
-	margin-top: 25px;
+	margin: 35px 0 50px;
 }
 
 .contributors{
 	font-size: 0.9em;
 }
-
-.timeline{
-	background: #333;
-	color: #fefefe;
-	padding-bottom: 30px;
-
-	-webkit-box-shadow: inset 0px 0px 6px 4px rgba(0, 0, 0, .5);
-	box-shadow: inset 0px 0px 6px 4px rgba(0, 0, 0, .5);
+.contributors a{
+	color: inherit;
+	text-decoration: none;
 }
-
 footer{
-	padding: 20px 0;
+	padding: 20px 0 50px;
 	text-align: center;
+	background-image: url('../img/txture.png');
+	text-shadow: 1px 1px 1px #000;
+	color:rgba(255,255,255,0.4);
 }
+	.footer{
+		background-image: url('../img/txture.png');
+		width:100%;
+	}
 
 footer h4{
 	display: inline-block;
 	padding: 0 10px;
-	color: #666;
+	color: rgba(255,255,255,0.5);
 	opacity: 0.5;
+	-webkit-font-smoothing: antialiased;
 }
 
 footer h4:hover{
