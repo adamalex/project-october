@@ -1,6 +1,6 @@
 body{
 	background-image: url('/img/subtlenet2.png');
-	padding-top: 0;
+	padding-bottom:40px;
 }
 
 /* ==========================================================================
@@ -16,8 +16,17 @@ p {
 }
 
 .page-header{
+	-webkit-font-smoothing: antialiased;
 	position: relative;
-	background: #333 url('/img/txture.png');
+	background-color: #333;
+	background-image: url('/img/tech_week_header.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-shadow: 1px 1px 1px #000;
 	margin-top: 0;
 }
 
@@ -33,10 +42,18 @@ p {
 
 .page-header .dates{
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 0px;
+	right: 0px;
+	padding:20px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	text-transform: uppercase;
+	background-color: rgba(0,0,0,0.7);
+  	-webkit-border-bottom-right-radius: 3px;
+  	-webkit-border-bottom-left-radius: 4px;
+  	-moz-border-radius-bottomright: 3px;
+  	-moz-border-radius-bottomleft: 4px;
+  	border-bottom-right-radius: 3px;
+  	border-bottom-left-radius: 4px;
 }
 
 .page-header sup{
