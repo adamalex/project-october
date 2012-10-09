@@ -107,11 +107,20 @@
                         </p>
                       </div>
                   </li>
-                <li class="span4">
-                    <!--div class="thumbnail"-->
-<a class="twitter-timeline" href="https://twitter.com/search?q=%23IndyTechWeek" width="360" data-widget-id="255671943720730625">Tweets about "#IndyTechWeek"</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                    <!--/div-->                    
+
+                <!--putting style here to keep everything twitter-widget related all in one place in case someone doesn't like it and wants to quickly rip it out-->
+                <style>
+                    li.span4.twitter-container{
+                        height:475px;
+                    }
+                    
+                    li.span4.twitter-container iframe{
+                        height: 475px !important;
+                    }
+                </style>
+                <li class="span4 twitter-container" style="height:475px;">
+                    <a class="twitter-timeline" href="https://twitter.com/search?q=%23IndyTechWeek" width="360" data-widget-id="255671943720730625">Tweets about "#IndyTechWeek"</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </li>
                     
               </ul>
