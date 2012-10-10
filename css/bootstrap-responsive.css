@@ -488,7 +488,7 @@
     width: 290px;
   }
   .span4 {
-    width: 228px;
+    width: 352px;
   }
   .span3 {
     width: 166px;
@@ -806,7 +806,6 @@
     margin-left: 0;
   }
   .thumbnails > li {
-    float: none;
     margin-left: 0;
   }
   [class*="span"],

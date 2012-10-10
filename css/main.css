@@ -33,12 +33,13 @@ p {
 	position: relative;
 	color: #ccc;
 	background: transparent;
-	padding:100px 0 20px 60px;
+	padding:100px 60px 20px 60px;
 }
 
 .hero-unit h1{
 	color: #fff;
 	font-size: 5em;	
+	padding:0 0 5px 0;
 }
 
 .page-header .dates{
@@ -72,12 +73,6 @@ p {
 
 .events .thumbnail{
 	min-height: 400px;
-}
-
-@media (max-width: 767px) {
-	.events .thumbnail{
-		min-height: 600px;
-	}
 }
 
 .thumbnail .dates{
@@ -198,9 +193,196 @@ footer h4:hover{
 	background-position: -204px -34px;
 }
 
+@media (max-width: 530px) {
+	.hero-unit{
+		padding:100px 20px 0px 20px;
+	}
+	.hero-unit h1{
+		font-size: 3em;
+	}
+		.hero-unit .lead{
+			font-size: 1.2em;
+		}
+		.hero-unit .dates{
+			right:10px;
+			padding:10px 20px 10px 20px;
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+	#main-content{
+		width:96%;
+		padding: 0 2%;
+	}
+		.span4{
+			height:auto;
+			margin-bottom: 25px;
+		}
+			.span4 .thumbnail img{
+				width:100%;
+			}
+		.span3{
+			width:49%;
+			float: left;
+		}
+			.span3:nth-child(2n+2){
+				margin-left:2%;
+			}
+			.span3 h4{
+				font-size: 1.2em;
+			}
+}
+
+@media (min-width: 530px) {
+	.hero-unit{
+		padding:90px 20px 0px 20px;
+	}
+	.hero-unit h1{
+		font-size: 4em;
+	}
+		.hero-unit .lead{
+			font-size: 1.2em;
+		}
+		.hero-unit .dates{
+			right:15px;
+			padding:10px 20px 10px 20px;
+			font-size: 1.1em;
+			line-height: 1.5em;
+		}
+
+	#main-content{
+		width:96%;
+		padding: 0 2%;
+	}
+		.span4{
+			height:auto;
+			width:48%;
+			margin-bottom:24px;
+			margin-left: 2%;
+		}
+			.span4:nth-child(2n+1){
+				clear: left;
+			}
+			.span4:nth-child(2n+2){
+				margin-left:2%;
+				float:right;
+			}
+			.span4 .thumbnail img{
+				width:100%;
+			}
+			.span4 .clearfix{
+				text-align: center;
+			}
+				.span4 .pull-left, .span4 .pull-right{
+					margin:0 auto;
+					float: none;
+					display: block;
+				}
+		.span3{
+			width:49%;
+			margin-bottom: 15px;
+			float: left;
+		}
+			.span3 img{
+				width: 100%;
+			}
+			.span3:nth-child(2n+2){
+				margin-left:2% !important;
+			}
+			.span3 h4{
+				font-size: 1.2em;
+			}
+
+}
+
+@media (min-width: 750px) {
+	.page-header .container{
+		width:94%;
+		margin:0 2%;
+	}
+	.hero-unit{
+		padding:90px 20px 20px 20px;
+	}
+	.hero-unit h1{
+		font-size: 5em;
+	}
+		.hero-unit .lead{
+			font-size: 1.5em;
+		}
+		.hero-unit .dates{
+			right:15px;
+			padding:10px 20px 10px 20px;
+			font-size: 1.3em;
+			line-height: 1.5em;
+		}
 
 
+	.thumbnails > li{
+		margin-left: 2%;
+	}
+	.span4 .pull-left{
+		margin:0 auto;
+		float: left;
+		display: block;
+	}
+	.span4 .pull-right{
+		float: right;
+	}
+	.span3{
+		width:23%;
+		margin-bottom: 15px;
+		float: left;
+	}
+		.span3 img{
+			width: 100%;
+		}
+		.span3{
+			margin: 0 0 0 2% !important;
+		}
+			.span3 + .span3{
+				margin: 0 0 0 2% !important;
+			}
+			.span3 + .span3 + .span3{
+				margin: 0 2% 0 2% !important;
+			}
+			.span3 + .span3 + .span3 + .span3{
+				margin: 0 !important;
+			}
+		.span3 h4{
+			font-size: 1.2em;
+			padding:0 1px;
+			text-align: center;
+		}
 
+}
+
+@media (min-width: 960px) {
+	#main-content{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.span4{
+		height:auto;
+		width:31%;
+		margin-bottom:25px;
+		margin-left: 2%;
+	}
+		.span4:nth-child(2n+2){
+			float:left;
+			clear: none;
+		}
+		.span4:nth-child(3n+2){
+			margin:0 2.5% 25px 2.5%;
+			float:left;
+			min-height:435px;
+			clear: none;
+		}
+		.span4:nth-child(3n+3){
+			margin:0 0% 25px 0;
+			float:left;
+			clear: none;
+		}
+}
 
 
 
