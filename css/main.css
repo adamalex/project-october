@@ -33,17 +33,19 @@ p {
 	position: relative;
 	color: #ccc;
 	background: transparent;
+	padding:100px 0 20px 60px;
 }
 
 .hero-unit h1{
 	color: #fff;
+	font-size: 5em;	
 }
 
 .page-header .dates{
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	padding:20px;
+	padding:20px 25px 10px 25px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	text-transform: uppercase;
 	background-color: rgba(0,0,0,0.7);
@@ -54,6 +56,11 @@ p {
   	border-bottom-right-radius: 3px;
   	border-bottom-left-radius: 4px;
 }
+	.dates strong{
+		display: block;
+		text-align: center;
+		font-size: .9em;
+	}
 
 .page-header sup{
 	text-transform: none;
