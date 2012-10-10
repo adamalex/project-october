@@ -195,13 +195,13 @@ footer h4:hover{
 
 @media (max-width: 530px) {
 	.hero-unit{
-		padding:100px 20px 0px 20px;
+		padding:80px 5px 0px 10px;
 	}
 	.hero-unit h1{
-		font-size: 3em;
+		font-size: 2.4em;
 	}
 		.hero-unit .lead{
-			font-size: 1.2em;
+			font-size: 1em;
 		}
 		.hero-unit .dates{
 			right:10px;
@@ -224,12 +224,15 @@ footer h4:hover{
 		.span3{
 			width:49%;
 			float: left;
+			margin-bottom: 10px;
 		}
 			.span3:nth-child(2n+2){
 				margin-left:2%;
 			}
 			.span3 h4{
-				font-size: 1.2em;
+				font-size: .9em;
+				text-align: center;
+				padding: 0;
 			}
 }
 
