@@ -27,7 +27,7 @@
           <div class="container">
             <div class="hero-unit">
               <h1>Indy Tech Week</h1>
-              <p class="dates">October 11<sup>th</sup>-19<sup>th</sup>, 2012 <strong><a href='https://twitter.com/search?q=%23indytechweek&src=hash'>#IndyTechWeek</a></strong></p>
+              <p class="dates">October 11<sup>th</sup>-19<sup>th</sup>, 2012 <strong><a href="https://twitter.com/search?q=%23indytechweek&src=hash" target="_blank" id="IndyTechWeekHash">#IndyTechWeek</a></strong></p>
               <p class="lead"> Indy Tech Week is an accidental (but awesome) week-long techstravanganza in Indianapolis. 5 events, 8 days, neato.</p>
             </div>
           </div>
@@ -185,5 +185,38 @@
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+				<script>
+					$('#IndyTechWeekHash').mouseenter(function(){
+						$('#IndyTechWeekHash').popover({
+								'trigger': 'manual'
+								, 'html': true
+								, 'content': '<a class="twitter-timeline" data-theme="light" width="220px" href="https://twitter.com/search?q=%23IndyTechWeek" style="display:none" data-widget-id="255671943720730625">Tweets about "#IndyTechWeek"</a>'
+								, 'placement': 'bottom'
+								, 'title': 'LIVE!'
+						}).popover('show');
+						setTimeout(function(){
+							try{
+							! function (d, s, id) {
+									var js, fjs = d.getElementsByTagName(s)[0];
+									if (!d.getElementById(id)) {
+											js = d.createElement(s);
+											js.id = id;
+											js.src = "//platform.twitter.com/widgets.js";
+											fjs.parentNode.insertBefore(js, fjs);
+											/*
+											setTimeout( function() {
+												$('#twitter-widget-0').appendTo('#twitter-target').show();
+											}, 10000 );
+											*/
+									}
+							}(document, "script", "twitter-wjs");
+							}catch(e){}
+						}, 10);
+					}).mouseleave(function(){
+						$('#twitter-wjs').remove();
+						$('#twitter-widget-0').remove();
+						$('#IndyTechWeekHash').popover('destroy');
+					});
+				</script>
     </body>
 </html>
