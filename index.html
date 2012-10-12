@@ -18,16 +18,26 @@
         <script type="text/javascript" src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
 
         <div class="page-header">
-
           <div class="container">
             <div class="hero-unit">
+							<div class="dropdown" style="position: absolute; top: 28px; right: 185px; z-index: 1;">
+								<a class="dropdown-toggle" id="TwitterHashSelect" data-toggle="dropdown" href="#">+</a>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+									<li><a tabindex="-1" href="#" data-twitter-widget-id="256786007196844033" >#IndyTechWeek</a></li>
+									<li><a tabindex="-1" href="#" data-twitter-widget-id="256782532534734848" >#RebuildConf</a></li>
+									<li><a tabindex="-1" href="#" data-twitter-widget-id="256785471223496704" >#ET12</a></li>
+									<li><a tabindex="-1" href="#" data-twitter-widget-id="256786614393634817" >#PowderKeg</a></li>
+								</ul>
+							</div>
               <h1>Indy Tech Week</h1>
-              <p class="dates">October 11<sup>th</sup>-19<sup>th</sup>, 2012 <strong><a href="https://twitter.com/search?q=%23indytechweek&src=hash" target="_blank" id="IndyTechWeekHash">#IndyTechWeek</a></strong></p>
+              <p class="dates">
+								October 11<sup>th</sup>-19<sup>th</sup>, 2012 
+								<strong>
+									<a href="https://twitter.com/search?q=%23indytechweek&src=hash" target="_blank" id="TwitterHashLive" data-twitter-widget-id="256786007196844033" >#IndyTechWeek</a>
+								</strong>
+							</p>
               <p class="lead"> Indy Tech Week is an accidental (but awesome) week-long techstravanganza in Indianapolis. 5 events, 8 days, neato.</p>
             </div>
           </div>
@@ -187,7 +197,8 @@
         </script>
 				<script>
 					var 
-						jqHash = $('#IndyTechWeekHash')
+						jqHash = $('#TwitterHashLive')
+						, jqHashSelect = $('#TwitterHashSelect')
 						, buildTwitterList = function(){
 							if( jqHash.is('.open') ) return false;
 
@@ -196,7 +207,12 @@
 							jqHash.popover({
 									'trigger': 'manual'
 									, 'html': true
-									, 'content': '<a class="twitter-timeline" data-theme="light" width="220px" href="https://twitter.com/search?q=%23IndyTechWeek" style="display:none" data-widget-id="255671943720730625">Tweets about "#IndyTechWeek"</a>'
+									//, 'content': '<a class="twitter-timeline" data-theme="light" width="220px" href="https://twitter.com/search?q=23IndyTechWeek" style="display:none" data-widget-id="255671943720730625">Tweets about "#IndyTechWeek"</a>'
+									, 'content': '<a class="twitter-timeline" data-theme="light" width="220px" href="https://twitter.com/search?q='
+											+ $('#TwitterHashLive').text().replace('#','%23')
+										+ '" style="display:none" data-widget-id="'
+											+ $('#TwitterHashLive').data('twitter-widget-id')
+										+ '">Tweets about "#IndyTechWeek"</a>'
 									, 'placement': 'bottom'
 									, 'title': 'LIVE!'
 							}).popover('show');
@@ -226,6 +242,15 @@
 							jqHash.removeClass('open');
 						}
 				  ;
+
+					jqHash
+						.dropdown()
+				  ;
+
+					$('.dropdown-menu a').click( function( e ) {
+						jqHash.text( $(e.currentTarget).text() );
+						jqHash.data( 'twitter-widget-id', $(e.currentTarget).data('twitter-widget-id') );
+					} );
 
 					jqHash
 						.mouseenter(buildTwitterList)
