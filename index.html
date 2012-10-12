@@ -186,37 +186,70 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
 				<script>
-					$('#IndyTechWeekHash').mouseenter(function(){
-						$('#IndyTechWeekHash').popover({
-								'trigger': 'manual'
-								, 'html': true
-								, 'content': '<a class="twitter-timeline" data-theme="light" width="220px" href="https://twitter.com/search?q=%23IndyTechWeek" style="display:none" data-widget-id="255671943720730625">Tweets about "#IndyTechWeek"</a>'
-								, 'placement': 'bottom'
-								, 'title': 'LIVE!'
-						}).popover('show');
-						setTimeout(function(){
-							try{
-							! function (d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0];
-									if (!d.getElementById(id)) {
-											js = d.createElement(s);
-											js.id = id;
-											js.src = "//platform.twitter.com/widgets.js";
-											fjs.parentNode.insertBefore(js, fjs);
-											/*
-											setTimeout( function() {
-												$('#twitter-widget-0').appendTo('#twitter-target').show();
-											}, 10000 );
-											*/
-									}
-							}(document, "script", "twitter-wjs");
-							}catch(e){}
-						}, 10);
-					}).mouseleave(function(){
-						$('#twitter-wjs').remove();
-						$('#twitter-widget-0').remove();
-						$('#IndyTechWeekHash').popover('destroy');
-					});
+					var 
+						jqHash = $('#IndyTechWeekHash')
+						, buildTwitterList = function(){
+							if( jqHash.is('.open') ) return false;
+
+							jqHash.addClass('open');
+
+							jqHash.popover({
+									'trigger': 'manual'
+									, 'html': true
+									, 'content': '<a class="twitter-timeline" data-theme="light" width="220px" href="https://twitter.com/search?q=%23IndyTechWeek" style="display:none" data-widget-id="255671943720730625">Tweets about "#IndyTechWeek"</a>'
+									, 'placement': 'bottom'
+									, 'title': 'LIVE!'
+							}).popover('show');
+							setTimeout(function(){
+								try{
+									! function (d, s, id) {
+											var js, fjs = d.getElementsByTagName(s)[0];
+											if (!d.getElementById(id)) {
+													js = d.createElement(s);
+													js.id = id;
+													js.src = "//platform.twitter.com/widgets.js";
+													fjs.parentNode.insertBefore(js, fjs);
+											}
+									}(document, "script", "twitter-wjs");
+								}catch(e){}
+							}, 5);
+
+							jqHash.addClass('lock');
+						}
+						, killTwitterList = function(){
+							if( !jqHash.is('.open') && !jqHash.is('.popover-hover') ) return false;
+
+							$('#twitter-wjs').remove();
+							$('#twitter-widget-0').remove();
+							jqHash.popover('destroy');
+
+							jqHash.removeClass('open');
+						}
+				  ;
+
+					jqHash
+						.mouseenter(buildTwitterList)
+						.mouseleave( function(){
+								setTimeout( function() {
+										if( jqHash.is('.popover-hover') ) return false;
+										killTwitterList();
+								} , 100 );
+						} )
+				  ;
+
+					$('.popover')
+						.live( 'mouseenter', function() {
+								debugger;
+								jqHash.addClass('popover-hover');
+						} )
+						.live( 'mouseleave',  function(){
+								setTimeout( function() {
+										jqHash.removeClass('popover-hover');
+										killTwitterList();
+								} , 100 );
+						} )
+				  ;
+
 				</script>
     </body>
 </html>
